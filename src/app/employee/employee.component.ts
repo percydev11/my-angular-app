@@ -9,4 +9,13 @@ import { Component } from '@angular/core';
 })
 export class EmployeeComponent {
 
+  firstName = 'Vanesa';
+  lastName = 'Rodriguez';
+  age = 15;
+  company = 'PercyTIC';
+
+ /* getAge() {
+    return this.age;
+  }*/
+
 }
