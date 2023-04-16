@@ -4,18 +4,20 @@ import { Component } from '@angular/core';
   selector: 'app-employee',
   templateUrl: './employee.component.html',
   //template: "<p>Here would go an employee</p>",
-  styleUrls: ['./employee.component.css']
+  styleUrls: ['./employee.component.css'],
   //styles: ["p {background-color: aquamarine;}"]
 })
 export class EmployeeComponent {
-
   firstName = 'Vanesa';
   lastName = 'Rodriguez';
   age = 15;
-  company = 'PercyTIC';
+  //company = 'PercyTIC';
+  email = 'percy@gmail.com';
+  //company: any;
 
- /* getAge() {
+  /* getAge() {
     return this.age;
   }*/
 
+  //callCompany(value: String) {}
 }
